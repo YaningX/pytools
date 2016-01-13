@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from sendEmail import EmailClient
 from email.message import Message
-from pm25search import getPM25
+
+from tools.mail import EmailClient
+from tools.pm25 import getPM25
+
 
 def run():
     """

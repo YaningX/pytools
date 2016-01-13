@@ -1,4 +1,4 @@
-from flasky import app
+from tools.flasky import app
 
 
 if __name__ == "__main__":
