@@ -28,7 +28,7 @@ def run():
     msg['Subject'] = Header(subject, 'utf-8')
     """
 
-    email_client = EmailClient(smtp_server, username, password= '2010.xyn')
+    email_client = EmailClient(smtp_server, username, password= '1234567890')
     email_client.send_email(receiver[1], message)
     email_client.send_email(receiver[3], message)
 
